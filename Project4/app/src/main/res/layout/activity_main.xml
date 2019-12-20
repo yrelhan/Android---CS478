@@ -1,0 +1,769 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.3"
+    android:weightSum="10"
+    android:orientation="horizontal"
+    android:clickable="false"
+    >
+
+    <TextView
+        android:id="@+id/player1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:text="Player 1"/>
+
+        <TextView
+            android:id="@+id/player1_color"
+            android:layout_width="0dp"
+            android:layout_height="67dp"
+            android:layout_weight="2"
+            android:background="@color/player1" />
+
+    <TextView
+        android:id="@+id/player1_status"
+        android:layout_width="0dp"
+        android:layout_height="67dp"
+        android:layout_weight="6"
+        android:text="Player 1 Status"
+        android:textAlignment="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:clickable="false"
+        >
+
+        <TextView
+            android:id="@+id/player2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="Player 2"/>
+
+        <TextView
+            android:id="@+id/player2_color"
+            android:layout_width="0dp"
+            android:layout_height="67dp"
+            android:layout_weight="2"
+            android:background="@color/player2" />
+
+        <TextView
+            android:id="@+id/player2_status"
+            android:layout_width="0dp"
+            android:layout_height="67dp"
+            android:layout_weight="6"
+            android:text="Player 2 Status"
+            android:textAlignment="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:clickable="false"
+        >
+
+        <TextView
+            android:id="@+id/gopher"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="Gopher"/>
+
+        <TextView
+            android:id="@+id/gopher_color"
+            android:layout_width="0dp"
+            android:layout_height="67dp"
+            android:layout_weight="2"
+            android:background="@color/gopher" />
+
+        <TextView
+            android:id="@+id/gopher_status"
+            android:layout_width="0dp"
+            android:layout_height="67dp"
+            android:layout_weight="6"
+            android:text="Gopher"
+            android:textAlignment="center"/>
+    </LinearLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="6"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:paddingTop="15dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:clickable="false"
+        android:weightSum="10">
+
+        <TableRow
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/cell1"
+                android:text="01"
+
+                />
+            <TextView
+                android:id="@+id/cell2"
+                android:text="02"
+
+                />
+            <TextView
+                android:id="@+id/cell3"
+                android:text="03"
+
+                />
+            <TextView
+                android:id="@+id/cell4"
+                android:text="04"
+
+                />
+            <TextView
+                android:id="@+id/cell5"
+                android:text="05"
+
+                />
+            <TextView
+                android:id="@+id/cell6"
+                android:text="06"
+
+                />
+            <TextView
+                android:id="@+id/cell7"
+                android:text="07"
+
+                />
+            <TextView
+                android:id="@+id/cell8"
+                android:text="08"
+
+                />
+            <TextView
+                android:id="@+id/cell9"
+                android:text="09"
+
+                />
+            <TextView
+                android:id="@+id/cell10"
+                android:text="10"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/cell11"
+                android:text="11"
+
+                />
+            <TextView
+                android:id="@+id/cell12"
+                android:text="12"
+
+                />
+            <TextView
+                android:id="@+id/cell13"
+                android:text="13"
+
+                />
+            <TextView
+                android:id="@+id/cell14"
+                android:text="14"
+
+                />
+            <TextView
+                android:id="@+id/cell15"
+                android:text="15"
+
+                />
+            <TextView
+                android:id="@+id/cell16"
+                android:text="16"
+
+                />
+            <TextView
+                android:id="@+id/cell17"
+                android:text="17"
+
+                />
+            <TextView
+                android:id="@+id/cell18"
+                android:text="18"
+
+                />
+            <TextView
+                android:id="@+id/cell19"
+                android:text="19"
+
+                />
+            <TextView
+                android:id="@+id/cell20"
+                android:text="20"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/cell21"
+                android:text="21"
+
+                />
+            <TextView
+                android:id="@+id/cell22"
+                android:text="22"
+
+                />
+            <TextView
+                android:id="@+id/cell23"
+                android:text="23"
+
+                />
+            <TextView
+                android:id="@+id/cell24"
+                android:text="24"
+
+                />
+            <TextView
+                android:id="@+id/cell25"
+                android:text="25"
+
+                />
+            <TextView
+                android:id="@+id/cell26"
+                android:text="26"
+
+                />
+            <TextView
+                android:id="@+id/cell27"
+                android:text="27"
+
+                />
+            <TextView
+                android:id="@+id/cell28"
+                android:text="28"
+
+                />
+            <TextView
+                android:id="@+id/cell29"
+                android:text="29"
+
+                />
+            <TextView
+                android:id="@+id/cell30"
+                android:text="30"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/cell31"
+                android:text="31"
+
+                />
+
+            <TextView
+                android:id="@+id/cell32"
+                android:text="32"
+
+                />
+
+            <TextView
+                android:id="@+id/cell33"
+                android:text="33"
+
+                />
+
+            <TextView
+                android:id="@+id/cell34"
+                android:text="34"
+
+                />
+
+            <TextView
+                android:id="@+id/cell35"
+                android:text="35"
+
+                />
+
+            <TextView
+                android:id="@+id/cell36"
+                android:text="36"
+
+                />
+
+            <TextView
+                android:id="@+id/cell37"
+                android:text="37"
+
+                />
+
+            <TextView
+                android:id="@+id/cell38"
+                android:text="38"
+
+                />
+
+            <TextView
+                android:id="@+id/cell39"
+                android:text="39"
+
+                />
+
+            <TextView
+                android:id="@+id/cell40"
+                android:text="40"
+
+                />
+        </TableRow>
+        <TableRow
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/cell41"
+                android:text="41"
+
+                />
+
+            <TextView
+                android:id="@+id/cell42"
+                android:text="42"
+
+                />
+
+            <TextView
+                android:id="@+id/cell43"
+                android:text="43"
+
+                />
+
+            <TextView
+                android:id="@+id/cell44"
+                android:text="44"
+
+                />
+
+            <TextView
+                android:id="@+id/cell45"
+                android:text="45"
+
+                />
+
+            <TextView
+                android:id="@+id/cell46"
+                android:text="46"
+
+                />
+
+            <TextView
+                android:id="@+id/cell47"
+                android:text="47"
+
+                />
+
+            <TextView
+                android:id="@+id/cell48"
+                android:text="48"
+
+                />
+
+            <TextView
+                android:id="@+id/cell49"
+                android:text="49"
+
+                />
+
+            <TextView
+                android:id="@+id/cell50"
+                android:text="50"
+
+                />
+        </TableRow>
+        <TableRow
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/cell51"
+                android:text="51"
+
+                />
+
+            <TextView
+                android:id="@+id/cell52"
+                android:text="52"
+
+                />
+
+            <TextView
+                android:id="@+id/cell53"
+                android:text="53"
+
+                />
+
+            <TextView
+                android:id="@+id/cell54"
+                android:text="54"
+
+                />
+
+            <TextView
+                android:id="@+id/cell55"
+                android:text="55"
+
+                />
+
+            <TextView
+                android:id="@+id/cell56"
+                android:text="56"
+
+                />
+
+            <TextView
+                android:id="@+id/cell57"
+                android:text="57"
+
+                />
+
+            <TextView
+                android:id="@+id/cell58"
+                android:text="58"
+
+                />
+
+            <TextView
+                android:id="@+id/cell59"
+                android:text="59"
+
+                />
+
+            <TextView
+                android:id="@+id/cell60"
+                android:text="60"
+
+                />
+        </TableRow>
+        <TableRow
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/cell61"
+                android:text="61"
+
+                />
+
+            <TextView
+                android:id="@+id/cell62"
+                android:text="62"
+
+                />
+
+            <TextView
+                android:id="@+id/cell63"
+                android:text="63"
+
+                />
+
+            <TextView
+                android:id="@+id/cell64"
+                android:text="64"
+
+                />
+
+            <TextView
+                android:id="@+id/cell65"
+                android:text="65"
+
+                />
+
+            <TextView
+                android:id="@+id/cell66"
+                android:text="66"
+
+                />
+
+            <TextView
+                android:id="@+id/cell67"
+                android:text="67"
+
+                />
+
+            <TextView
+                android:id="@+id/cell68"
+                android:text="68"
+
+                />
+
+            <TextView
+                android:id="@+id/cell69"
+                android:text="69"
+
+                />
+
+            <TextView
+                android:id="@+id/cell70"
+                android:text="70"
+
+                />
+        </TableRow>
+        <TableRow
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/cell71"
+                android:text="71"
+
+                />
+
+            <TextView
+                android:id="@+id/cell72"
+                android:text="72"
+
+                />
+
+            <TextView
+                android:id="@+id/cell73"
+                android:text="73"
+
+                />
+
+            <TextView
+                android:id="@+id/cell74"
+                android:text="74"
+
+                />
+
+            <TextView
+                android:id="@+id/cell75"
+                android:text="75"
+
+                />
+
+            <TextView
+                android:id="@+id/cell76"
+                android:text="76"
+
+                />
+
+            <TextView
+                android:id="@+id/cell77"
+                android:text="77"
+
+                />
+
+            <TextView
+                android:id="@+id/cell78"
+                android:text="78"
+
+                />
+
+            <TextView
+                android:id="@+id/cell79"
+                android:text="79"
+
+                />
+
+            <TextView
+                android:id="@+id/cell80"
+                android:text="80"
+
+                />
+        </TableRow>
+        <TableRow
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/cell81"
+                android:text="81"
+
+                />
+
+            <TextView
+                android:id="@+id/cell82"
+                android:text="82"
+
+                />
+
+            <TextView
+                android:id="@+id/cell83"
+                android:text="83"
+
+                />
+
+            <TextView
+                android:id="@+id/cell84"
+                android:text="84"
+
+                />
+
+            <TextView
+                android:id="@+id/cell85"
+                android:text="85"
+
+                />
+
+            <TextView
+                android:id="@+id/cell86"
+                android:text="86"
+
+                />
+
+            <TextView
+                android:id="@+id/cell87"
+                android:text="87"
+
+                />
+
+            <TextView
+                android:id="@+id/cell88"
+                android:text="88"
+
+                />
+
+            <TextView
+                android:id="@+id/cell89"
+                android:text="89"
+
+                />
+
+            <TextView
+                android:id="@+id/cell90"
+                android:text="90"
+
+                />
+        </TableRow>
+        <TableRow
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/cell91"
+                android:text="91"
+
+                />
+
+            <TextView
+                android:id="@+id/cell92"
+                android:text="92"
+
+                />
+
+            <TextView
+                android:id="@+id/cell93"
+                android:text="93"
+
+                />
+
+            <TextView
+                android:id="@+id/cell94"
+                android:text="94"
+
+                />
+
+            <TextView
+                android:id="@+id/cell95"
+                android:text="95"
+
+                />
+
+            <TextView
+                android:id="@+id/cell96"
+                android:text="96"
+
+                />
+
+            <TextView
+                android:id="@+id/cell97"
+                android:text="97"
+
+                />
+
+            <TextView
+                android:id="@+id/cell98"
+                android:text="98"
+
+                />
+
+            <TextView
+                android:id="@+id/cell99"
+                android:text="99"
+
+                />
+
+            <TextView
+                android:id="@+id/cell100"
+                android:text="100"
+
+                />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="10"
+        >
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="Manual mode on/off"
+            />
+        <Button
+        android:id="@+id/start"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:text="Start Game"/>
+
+        <Button
+            android:id="@+id/startagain"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="Start again"
+            android:visibility="visible"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="5dp"
+        android:weightSum="10"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/commentary"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:clickable="false"
+            android:hint="Game Mode" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:clickable="false"
+            android:hint="Result"
+            android:textAllCaps="true"
+            android:textFontWeight="19" />
+    </LinearLayout>
+
+</LinearLayout>

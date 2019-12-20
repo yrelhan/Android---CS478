@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Project1</string>
+    <string name="address">Address</string>
+    <string name="map">Map</string>
+    <string name="welcome_to_the_application">Welcome to the application</string>
+    <string name="enter_a_street_address">Enter a street address</string>
+    <string name="name">Name</string>
+</resources>

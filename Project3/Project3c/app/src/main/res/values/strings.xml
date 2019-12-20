@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Project3C</string>
+    <string name="kaboom_short">Do kaboom</string>
+    <string name="kaboom_long">Do kaboom and send some broadcasts</string>
+
+    <string name="header1c_text">Project #3C</string>
+    <string name="header2c_text">CS 478 - Fall 2019</string>
+    <string name="header3c_text">Matteo Corain 650088272</string>
+
+    <string name="menu_option1">Open apps A and B</string>
+    <string name="menu_option2">Close app</string>
+</resources>

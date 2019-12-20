@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Project3B</string>
+
+    <string name="header1_text">Project #3B</string>
+    <string name="header2_text">CS 478 - Fall 2019</string>
+    <string name="header3_text">Matteo Corain 650088272</string>
+    <string name="start_receiver_button_text">Start receiver</string>
+    <string name="receiver_not_started_text">Receiver not started.</string>
+    <string name="receiver_started_text">Receiver started!</string>
+    <string name="error_permission_text">You have to grant permission to use this app.</string>
+    <string name="broadcast_processed_msg">Broadcast processed by 3B.</string>
+</resources>
